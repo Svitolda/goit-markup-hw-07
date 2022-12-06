@@ -1,4 +1,4 @@
-.hero {
+.hero{
     height: 600px;
     background-color: var(--section-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -16,8 +16,20 @@
     margin-right: auto;
 }
 
+.hero__title {
+    width: 696px;
+    margin: 0 auto 30px auto;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
 
-.section-btn {
+.hero__btn {
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);

@@ -1,4 +1,4 @@
-.about-container {
+.about__container {
     display: flex;
 }
 
@@ -6,12 +6,12 @@
     padding: 94px 0;
 }
 
-.about-list {
+.menu-list {
     display: flex;
     gap: 30px;
 }
 
-.about-list-item {
+.menu-list__item {
     flex-basis: calc((100% - 90px) / 4);
     &::before {
     display: block;
