@@ -347,6 +347,9 @@ textarea {
   font-size: 26px;
   line-height: 1.1923076923;
   letter-spacing: 0.03em;
+}
+
+.header__logo {
   margin-right: 93px;
 }
 
@@ -354,29 +357,29 @@ textarea {
   color: var(--accent);
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   height: 80px;
 }
 
-.navigation {
+.header__navigation {
   margin-right: auto;
 }
 
-.nav-link.current {
+.menu__link.current {
   color: var(--accent);
 }
 
-.header-nav,
-.header-contacts {
+.menu,
+.header__contacts {
   left: 0px;
   top: 0px;
   display: flex;
   gap: 50px;
 }
 
-.nav-link {
+.menu__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1428571429;
@@ -386,10 +389,10 @@ textarea {
   display: block;
   padding: 32px 0;
 }
-.nav-link:hover, .nav-link:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--accent);
 }
-.nav-link.current.link::after {
+.menu__link.current.link::after {
   display: block;
   content: "";
   position: absolute;
